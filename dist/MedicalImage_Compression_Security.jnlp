@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="MedicalImage_Compression_Security.jnlp">
+  <information>
+    <title>MedicalImage_Compression_Security</title>
+    <vendor>Oracle</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <jfx:javafx-runtime version="2.2+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="FXML-LoginDemo.jar" size="2378278" download="eager" />
+    <jar href="lib/BCHlib.jar" size="25954" download="eager" />
+    <jar href="lib/bcprov-1.45.jar" size="2124636" download="eager" />
+    <jar href="lib/commons-codec-1.10.jar" size="307015" download="eager" />
+    <jar href="lib/commons-io-2.4.jar" size="198379" download="eager" />
+    <jar href="lib/controlsfx-8.0.1.jar" size="320804" download="eager" />
+    <jar href="lib/hsql.jar" size="1793095" download="eager" />
+    <jar href="lib/ij.jar" size="2024256" download="eager" />
+    <jar href="lib/jfxmessagebox-1.1.0.jar" size="37606" download="eager" />
+    <jar href="lib/lzwj.jar" size="21437" download="eager" />
+    <jar href="lib/mysql-connector-java-5.1.41-bin.jar" size="1032350" download="eager" />
+    <jar href="lib/pixelmed.jar" size="3075180" download="eager" />
+  </resources>
+<security>
+  <all-permissions/>
+</security>
+  <applet-desc  width="700" height="550" main-class="com.javafx.main.NoJavaFXFallback"  name="MedicalImage_Compression_Security" >
+    <param name="requiredFXVersion" value="2.2+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="700" height="550" main-class="main.MedicalImage_Compression_Security"  name="MedicalImage_Compression_Security" />
+  <update check="background"/>
+</jnlp>
