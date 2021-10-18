@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/MedicalImage_Compression_Security/MedicalImage_Compression_Security/MedicalImage_Compression_Security/src/controller/RAcquisitionFXMLController.java</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/MedicalImage_Compression_Security/MedicalImage_Compression_Security/MedicalImage_Compression_Security/src/view/ServerSetupFXML.fxml</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/MedicalImage_Compression_Security/MedicalImage_Compression_Security/MedicalImage_Compression_Security/src/view/EncryptionFXML.fxml</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/MedicalImage_Compression_Security/MedicalImage_Compression_Security/MedicalImage_Compression_Security/src/model/CompressedMedicalImage.java</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/MedicalImage_Compression_Security/MedicalImage_Compression_Security/MedicalImage_Compression_Security/src/controller/CompressionFXMLController.java</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/MedicalImage_Compression_Security/MedicalImage_Compression_Security/MedicalImage_Compression_Security/src/view/DecryptionKeyFXML.fxml</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/MedicalImage_Compression_Security/MedicalImage_Compression_Security/MedicalImage_Compression_Security/src/main/MedicalImage_Compression_Security.java</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/MedicalImage_Compression_Security/MedicalImage_Compression_Security/MedicalImage_Compression_Security/src/controller/EncryptionKeyFXMLController.java</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/MedicalImage_Compression_Security/MedicalImage_Compression_Security/MedicalImage_Compression_Security/src/controller/AcquisitionFXMLController.java</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/MedicalImage_Compression_Security/MedicalImage_Compression_Security/MedicalImage_Compression_Security/src/view/RAcquisitionFXML.fxml</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/MedicalImage_Compression_Security/MedicalImage_Compression_Security/MedicalImage_Compression_Security/src/view/style.css</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/MedicalImage_Compression_Security/MedicalImage_Compression_Security/MedicalImage_Compression_Security/src/controller/DecryptionKeyFXMLController.java</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/MedicalImage_Compression_Security/MedicalImage_Compression_Security/MedicalImage_Compression_Security/src/view/EncryptionKeyFXML.fxml</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/MedicalImage_Compression_Security/MedicalImage_Compression_Security/MedicalImage_Compression_Security/src/controller/MetricsFXMLController.java</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/MedicalImage_Compression_Security/MedicalImage_Compression_Security/MedicalImage_Compression_Security/src/util/SQliteDbConnector.java</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/MedicalImage_Compression_Security/MedicalImage_Compression_Security/MedicalImage_Compression_Security/src/model/MedicalImage.java</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/MedicalImage_Compression_Security/MedicalImage_Compression_Security/MedicalImage_Compression_Security/src/view/FXMLDocument.fxml</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/MedicalImage_Compression_Security/MedicalImage_Compression_Security/MedicalImage_Compression_Security/src/controller/FXMLDocumentController.java</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/MedicalImage_Compression_Security/MedicalImage_Compression_Security/MedicalImage_Compression_Security/src/view/AcquisitionFXML.fxml</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/MedicalImage_Compression_Security/MedicalImage_Compression_Security/MedicalImage_Compression_Security/src/controller/DecompressionFXMLController.java</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/MedicalImage_Compression_Security/MedicalImage_Compression_Security/MedicalImage_Compression_Security/src/controller/ServerSetupController.java</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/MedicalImage_Compression_Security/MedicalImage_Compression_Security/MedicalImage_Compression_Security/src/view/CompressionFXML.fxml</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/MedicalImage_Compression_Security/MedicalImage_Compression_Security/MedicalImage_Compression_Security/src/model/EncryptedMedicalImage.java</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/MedicalImage_Compression_Security/MedicalImage_Compression_Security/MedicalImage_Compression_Security/src/view/TransmissionFXML.fxml</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/MedicalImage_Compression_Security/MedicalImage_Compression_Security/MedicalImage_Compression_Security/src/controller/EncryptionFXMLController.java</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/MedicalImage_Compression_Security/MedicalImage_Compression_Security/MedicalImage_Compression_Security/src/controller/DecryptionFXMLController.java</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/MedicalImage_Compression_Security/MedicalImage_Compression_Security/MedicalImage_Compression_Security/src/controller/TransmissionController.java</file>
+        </group>
+    </open-files>
+</project-private>

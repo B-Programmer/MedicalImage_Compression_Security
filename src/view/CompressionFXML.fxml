@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="otherbg" prefHeight="627.0" prefWidth="996.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CompressionFXMLController">
+   <children>
+      <Button fx:id="btnCompress" layoutX="55.0" layoutY="239.0" mnemonicParsing="false" onAction="#CompressImage" prefHeight="31.0" prefWidth="103.0" text="Compress" />
+      <TextField fx:id="txtCompressionRatio" editable="false" layoutX="201.0" layoutY="382.0" prefHeight="31.0" prefWidth="295.0" />
+      <TextField fx:id="txtCompressionTime" editable="false" layoutX="201.0" layoutY="424.0" prefHeight="31.0" prefWidth="295.0" />
+      <TextField fx:id="txtFileSize" editable="false" layoutX="201.0" layoutY="470.0" prefHeight="31.0" prefWidth="295.0" />
+      <Button fx:id="btnNext" layoutX="797.0" layoutY="553.0" mnemonicParsing="false" onAction="#LoadEncryptionView" prefHeight="31.0" prefWidth="103.0" text="Next" />
+      <Label layoutX="49.0" layoutY="385.0" text="Compression Ratio" />
+      <Label layoutX="49.0" layoutY="426.0" text="Compression Time" />
+      <Label layoutX="49.0" layoutY="476.0" text="New File Size" />
+      <Label fx:id="lblTitle" layoutX="298.0" layoutY="29.0" text="Image Compression (LZW)">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+      <Line endX="100.0" layoutX="488.0" layoutY="88.0" startX="-100.0" />
+      <CheckBox fx:id="chkHuffman" layoutX="55.0" layoutY="194.0" mnemonicParsing="false" onAction="#ToggleHuffmanCompressionAlgorithm" text="Huffman Compression" />
+      <CheckBox fx:id="chkLZW" layoutX="200.0" layoutY="194.0" mnemonicParsing="false" onAction="#ToggleLZWCompressionAlgorithm" selected="true" text="LZW Compression" />
+      <CheckBox fx:id="chkHybrid" layoutX="373.0" layoutY="194.0" mnemonicParsing="false" onAction="#ToggleHybridCompressionAlgorithm" text="LZW and Huffman Compression" />
+      <TextField fx:id="txtCompressionRatio1" editable="false" layoutX="641.0" layoutY="391.0" prefHeight="31.0" prefWidth="295.0" />
+      <TextField fx:id="txtCompressionTime1" editable="false" layoutX="641.0" layoutY="440.0" prefHeight="31.0" prefWidth="295.0" />
+      <TextField fx:id="txtFileSize1" editable="false" layoutX="609.0" layoutY="456.0" prefHeight="31.0" prefWidth="295.0" />
+      <Label fx:id="lblDRatio" layoutX="546.0" layoutY="455.0" text="Compression Ratio" />
+      <Label fx:id="lblDTime" layoutX="547.0" layoutY="429.0" text="Compression Time" />
+      <Label fx:id="lblDSize" layoutX="580.0" layoutY="455.0" text="New File Size" />
+      <Label fx:id="lblAnalysis" layoutX="201.0" layoutY="342.0" text="LZW Analysis">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtImagePath" editable="false" layoutX="201.0" layoutY="511.0" prefHeight="31.0" prefWidth="709.0" />
+            <TextField fx:id="txtAcquiredImagePath" editable="false" layoutX="55.0" layoutY="140.0" prefHeight="31.0" prefWidth="535.0" />
+      <Label layoutX="57.0" layoutY="109.0" text="Acquired Image Path" />
+      <Label layoutX="31.0" layoutY="509.0" text="Compressed Image Path" />
+      <Label fx:id="lblCompressing" layoutX="334.0" layoutY="294.0" text="Compressing..." textFill="#0a3997" />
+      <ProgressBar fx:id="prgCompressing" layoutX="55.0" layoutY="293.0" prefHeight="23.0" prefWidth="265.0" />
+      <ImageView fx:id="imgPicture" fitHeight="271.0" fitWidth="345.0" layoutX="659.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true" styleClass="compression" />
+      <Button fx:id="btnBack" layoutX="55.0" layoutY="553.0" mnemonicParsing="false" onAction="#LoadPreviousView" prefHeight="31.0" prefWidth="103.0" text="Back" />
+      
+   </children>
+</AnchorPane>

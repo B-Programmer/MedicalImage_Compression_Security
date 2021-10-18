@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="main" prefHeight="625.0" prefWidth="996.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FXMLDocumentController">
+    <children>
+        <Button id="btnStart" fx:id="button" layoutX="642.0" layoutY="428.0" onAction="#LoadAcquisitionView" prefHeight="31.0" prefWidth="105.0" text="Start" />
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Button id="btnClose" fx:id="button1" layoutX="642.0" layoutY="543.0" onAction="#CloseView" prefHeight="31.0" prefWidth="105.0" text="Close" />
+      <Button id="btnReverse" fx:id="btnReverse" layoutX="642.0" layoutY="487.0" onAction="#LoadAcquisition2View" prefHeight="31.0" prefWidth="105.0" text="Reverse" />
+      <Button fx:id="btnSetup" layoutX="797.0" layoutY="487.0" mnemonicParsing="false" onAction="#LoadServerSetupView" prefHeight="31.0" prefWidth="115.0" text="Server Setup" />
+      <Button fx:id="btnSend" layoutX="797.0" layoutY="428.0" mnemonicParsing="false" onAction="#LoadTransmissionView" prefHeight="31.0" prefWidth="115.0" text="Send Image" />
+    </children>
+</AnchorPane>

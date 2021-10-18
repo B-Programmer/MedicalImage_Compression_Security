@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="otherbg" prefHeight="627.0" prefWidth="996.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AcquisitionFXMLController">
+   <children>
+      <Button layoutX="354.0" layoutY="173.0" mnemonicParsing="false" onAction="#BrowseImage" prefHeight="31.0" prefWidth="103.0" text="Browse..." />
+      <TextField id="txtFilePath" fx:id="txtFilePath" editable="false" layoutX="54.0" layoutY="173.0" prefHeight="31.0" prefWidth="300.0" />
+      <Button layoutX="353.0" layoutY="247.0" mnemonicParsing="false" onAction="#AcquireImage" prefHeight="31.0" prefWidth="103.0" text="Acquire" />
+      <TextField fx:id="txtImageName" editable="false" layoutX="199.0" layoutY="314.0" prefHeight="31.0" prefWidth="257.0" />
+      <TextField fx:id="txtExtension" editable="false" layoutX="199.0" layoutY="360.0" prefHeight="31.0" prefWidth="257.0" />
+      <TextField fx:id="txtSize" editable="false" layoutX="199.0" layoutY="414.0" prefHeight="31.0" prefWidth="257.0" />
+      <ImageView fx:id="imgPicture" fitHeight="357.0" fitWidth="497.0" layoutX="538.0" layoutY="168.0" pickOnBounds="true" preserveRatio="true" styleClass="img" />
+      <Button fx:id="btnBack" layoutX="54.0" layoutY="550.0" mnemonicParsing="false" onAction="#LoadMainView" prefHeight="31.0" prefWidth="103.0" text="Back" />
+      <Button layoutX="537.0" layoutY="550.0" mnemonicParsing="false" onAction="#LoadCompressionView" prefHeight="31.0" prefWidth="103.0" text="Compress" />
+      <Label layoutX="87.0" layoutY="319.0" text="Image Name" />
+      <Label layoutX="87.0" layoutY="365.0" text="Extension" />
+      <Label layoutX="87.0" layoutY="419.0" text="File Size" />
+      <Label layoutX="353.0" layoutY="45.0" text="Image Acquisition">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+      <Line endX="100.0" layoutX="488.0" layoutY="95.0" startX="-100.0" />
+      <TextField fx:id="txtAcquisitionTime" editable="false" layoutX="199.0" layoutY="467.0" prefHeight="31.0" prefWidth="257.0" />
+      <Label layoutX="82.0" layoutY="472.0" text="Acquisiton Time" />
+      <Button layoutX="676.0" layoutY="550.0" mnemonicParsing="false" onAction="#LoadEncryptionView" prefHeight="31.0" prefWidth="103.0" text="Encrypt" />
+   </children>
+</AnchorPane>

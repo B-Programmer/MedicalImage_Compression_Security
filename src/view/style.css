@@ -1,0 +1,39 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 6, 2015, 10:23:51 AM
+    Author     : AYOBAMI
+*/
+
+
+#main 
+{
+    -fx-background-image:url("../images/BGx1.png");   
+    background-repeat:no-repeat;
+}
+
+#otherbg
+{
+    background-repeat:no-repeat;
+    -fx-background-image:url("../images/BGx2.png") ;  
+    
+}
+
+.img
+{
+    -fx-image: url("../images/BGx3.png");   
+}
+
+
+.compression
+{
+    -fx-image: url("../images/compression.png");   
+}
+
+.encryption
+{
+    -fx-image: url("../images/encryption.png");   
+}

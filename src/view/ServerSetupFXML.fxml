@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="otherbg" prefHeight="420.0" prefWidth="558.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ServerSetupController">
+   <children>
+      <TextField fx:id="txtAeTitle" layoutX="212.0" layoutY="105.0" prefHeight="31.0" prefWidth="257.0" text="STORESCP" />
+      <TextField fx:id="txtAlias" layoutX="212.0" layoutY="159.0" prefHeight="31.0" prefWidth="257.0" text="STORESCP" />
+      <TextField fx:id="txtIpAddress" layoutX="212.0" layoutY="215.0" prefHeight="31.0" prefWidth="257.0" text="127.0.0.1" />
+      <Button fx:id="btnUpdate" layoutX="212.0" layoutY="324.0" mnemonicParsing="false" onAction="#SaveServerSettings" prefHeight="31.0" prefWidth="103.0" text="Start" />
+      <Label layoutX="139.0" layoutY="110.0" text="AE Title:" />
+      <Label layoutX="161.0" layoutY="164.0" text="Alias" />
+      <Label layoutX="126.0" layoutY="220.0" text="IP Address" />
+      <Label layoutX="192.0" layoutY="25.0" text="Dicom Server Setup">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtPort" layoutX="212.0" layoutY="271.0" prefHeight="31.0" prefWidth="257.0" text="5080" />
+      <Label layoutX="163.0" layoutY="276.0" prefHeight="21.0" prefWidth="31.0" text="Port" />
+      <Button fx:id="btnCancel" layoutX="366.0" layoutY="324.0" mnemonicParsing="false" onAction="#CloseView" prefHeight="31.0" prefWidth="103.0" text="Close" />
+      <ProgressBar fx:id="prgStarting" layoutX="64.0" layoutY="67.0" prefHeight="23.0" prefWidth="265.0" />
+      <Label fx:id="lblStarting" layoutX="341.0" layoutY="68.0" text="Starting Dicom Server..." textFill="#0a3997" />
+      <Label fx:id="lblStarted" layoutX="72.0" layoutY="377.0" text="Dicom Server Successfully Started, You Can Close This Window" textFill="#0a3997" />
+   </children>
+</AnchorPane>

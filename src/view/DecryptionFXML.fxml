@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="otherbg" prefHeight="627.0" prefWidth="996.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DecryptionFXMLController">
+   <children>
+      <Button fx:id="btnDecrypt" layoutX="57.0" layoutY="243.0" mnemonicParsing="false" onAction="#DecryptImage" prefHeight="31.0" prefWidth="128.0" text="Decrypt Image" />
+      <TextField fx:id="txtDecryptionTime" editable="false" layoutX="235.0" layoutY="374.0" prefHeight="31.0" prefWidth="257.0" />
+      <TextField fx:id="txtImageStatus" editable="false" layoutX="235.0" layoutY="419.0" prefHeight="31.0" prefWidth="257.0" />
+      <Label layoutX="57.0" layoutY="379.0" text="Decryption Time" />
+      <Label layoutX="57.0" layoutY="424.0" text="Image Status" />
+      <Label layoutX="260.0" layoutY="30.0" text="Image Decryption (Blowfish)">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+      <Line endX="100.0" layoutX="457.0" layoutY="90.0" startX="-100.0" />
+      <CheckBox fx:id="chkNormal" layoutX="60.0" layoutY="195.0" mnemonicParsing="false" onAction="#ToggleEncryptionAlgorithm" selected="true" text="Blowfish" />
+      <Label layoutX="129.0" layoutY="195.0" text="Encryption Algorithm" />
+      <TextField fx:id="txtImagePath" editable="false" layoutX="235.0" layoutY="459.0" prefHeight="31.0" prefWidth="704.0" />
+      <Label layoutX="58.0" layoutY="464.0" text="Decrypted Image Path" />
+      <ProgressBar fx:id="prgDecrypting" layoutX="53.0" layoutY="318.0" prefHeight="23.0" prefWidth="265.0" />
+      <Label fx:id="lblDecrypting" layoutX="344.0" layoutY="319.0" text="Decrypting..." textFill="#0a3997" />
+      <Button fx:id="btnNext" layoutX="804.0" layoutY="531.0" mnemonicParsing="false" onAction="#LoadDeCompressionView" prefHeight="31.0" prefWidth="103.0" text="Next" />
+      <ImageView fx:id="imgPicture" fitHeight="269.0" fitWidth="320.0" layoutX="650.0" layoutY="151.0" pickOnBounds="true" preserveRatio="true" styleClass="encryption" />
+      <Button fx:id="btnBack" layoutX="51.0" layoutY="539.0" mnemonicParsing="false" onAction="#LoadPreviousView" prefHeight="31.0" prefWidth="103.0" text="Back" />
+      <Label layoutX="64.0" layoutY="114.0" text="Acquired Image Path" />
+      <TextField fx:id="txtAcquiredImagePath" editable="false" layoutX="60.0" layoutY="144.0" prefHeight="31.0" prefWidth="535.0" />
+      <CheckBox fx:id="chkEnhanced" layoutX="275.0" layoutY="195.0" mnemonicParsing="false" onAction="#ToggleEncryptionAlgorithm2" text="AES" />
+      <Label layoutX="325.0" layoutY="195.0" text="Encryption Algorithm" />
+   </children>
+</AnchorPane>
